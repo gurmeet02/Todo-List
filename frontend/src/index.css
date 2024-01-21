@@ -1,0 +1,28 @@
+@tailwind base;
+@layer base {
+  h1 {
+    @apply text-5xl font-bold;
+  }
+  h2 {
+    @apply text-[2.5rem] font-semibold;
+  }
+  h3 {
+    @apply text-4xl font-semibold;
+  }
+  h4 {
+    @apply text-3xl font-semibold;
+  }
+  h5 {
+    @apply text-2xl font-semibold;
+  }
+  h6 {
+    @apply text-xl font-medium;
+  }
+}
+@tailwind components;
+@tailwind utilities;
+
+section .card {
+  /* -webkit-box-shadow: 1px 10px 25px #c7cde0, -1px -10px 25px #dbe3f8; */
+  box-shadow: 0 16px 20px #ccc;
+}
