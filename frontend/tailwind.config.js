@@ -19,7 +19,7 @@ export default {
       black: "#000000",
       dark: "#292929",
       light: "#ccc",
-      red: "#FFB1B1,",
+      red: "#FFB1B1",
       blue: "#B1C9FF",
       green: "#B1FFB1",
       yellow: "#FFF4B1",

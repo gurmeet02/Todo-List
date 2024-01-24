@@ -6,10 +6,9 @@ const taskSchema = new Schema({
     type: String,
     required: true,
   },
-  // color: {
-  //   type: String,
-  //   required: false
-  // },
+  color: {
+    type: String,
+  },
 });
 
 module.exports = mongoose.model("Task", taskSchema);

@@ -21,8 +21,3 @@
 }
 @tailwind components;
 @tailwind utilities;
-
-section .card {
-  /* -webkit-box-shadow: 1px 10px 25px #c7cde0, -1px -10px 25px #dbe3f8; */
-  box-shadow: 0 16px 20px #ccc;
-}

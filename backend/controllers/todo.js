@@ -13,8 +13,10 @@ exports.getTasks = (req, res, next) => {
 
 exports.createTask = (req, res, next) => {
   const taskTitle = req.body.title;
+  const taskColor = req.body.color;
   const task = new Task({
-    title: taskTitle,
+    title: taskTitle.slice(0, 1).toUpperCase() + taskTitle.slice(1),
+    color: taskColor,
   });
   task
     .save()
